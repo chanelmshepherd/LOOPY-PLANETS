@@ -1,0 +1,47 @@
+
+
+ Console.WriteLine("Loopy Planets");
+            
+            
+            Console.WriteLine("Jupiter"); Console.WriteLine("Mars"); Console.WriteLine("Mercury");
+            
+            
+            Console.WriteLine("Neptune"); Console.WriteLine("Pluto"); Console.WriteLine("Saturn");
+            
+            
+            Console.WriteLine("Uranus"); Console.WriteLine("Venus");
+            
+            
+           Console.WriteLine("Quit");
+            
+			
+			
+			using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("        Loopy Planets");
+            
+            
+            Console.WriteLine("1. Jupiter     2. Mars     3. Mercury");
+            
+            
+            Console.WriteLine("4. Neptune     5. Pluto     6. Saturn");
+            
+            
+            Console.WriteLine("7.Uranus       8.Venus      9.Quit");
+            
+            float Jupiter = 2.64f;
+            float userWeight = 8.5f;
+            float newWeight = 0f;
+            newWeight = Jupiter * userWeight;
+            Console.WriteLine(newWeight);
+                
+            String aString = "Hello";
